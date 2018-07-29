@@ -15,7 +15,7 @@ loglevel={{ cfg.log.level }}
 # PLUGIN OPTIONS
 ######################################################################
 
-{% if grains['cpuarch'] == 'arm7l' %}
+{% if grains['cpuarch'] == 'armv7l' %}
   {% set libpath = ['"/usr/lib/arm-linux-gnueabihf/ulogd'] %}
 {% else %}
   {% set libpath = ['"/usr/lib/', grains['cpuarch'], '-linux-gnu/ulogd'] %}
