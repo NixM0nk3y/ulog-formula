@@ -1,4 +1,4 @@
 include:
-  - {{ slspath }}.install
-  - {{ slspath }}.config
-  - {{ slspath }}.service
+  - ulog.install
+  - ulog.config
+  - ulog.service
