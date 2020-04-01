@@ -1,4 +1,4 @@
-{% from slspath + "/map.jinja" import ulog with context %}
+{% from "ulog/map.jinja" import ulog with context %}
 
 {{ sls }}~main_config_file:
   file.managed:
