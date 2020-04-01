@@ -1,4 +1,4 @@
-{% import_yaml slspath + "ulog/defaults.yaml" as defaults %}
+{% import_yaml "ulog/defaults.yaml" as defaults %}
 
 {% set ulog = salt['pillar.get'](
   'ulog',
